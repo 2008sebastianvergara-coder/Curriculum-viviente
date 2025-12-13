@@ -3,7 +3,7 @@ import { ResumeData } from '../types';
 import { knowledgeBase } from '../knowledgeContext';
 
 // Initialize Gemini Client
-const ai = new GoogleGenAI({ apiKey: import.meta.env.VITE_API_KEY });
+const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
 
 export const createSystemPrompt = (data: ResumeData) => {
   const papersInfo = knowledgeBase.papers.map(p => 

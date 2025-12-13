@@ -240,7 +240,7 @@ export const mockResumeData: ResumeData = {
       title: "Beyond transport time: A review of time use modeling",
       type: "paper",
       year: "2017",
-      authors: "Rosales-Salas, J., and Jara-Díaz, S.",
+      authors: "Jara-Díaz, S., and Rosales-Salas, J.",
       link: "https://drive.google.com/file/d/1IY80S2R6xcD1xy3KwOiFmNKlF_xw8XMo/view?usp=sharing"
     },
     {
@@ -248,7 +248,7 @@ export const mockResumeData: ResumeData = {
       title: "Understanding time use: Daily or weekly data?",
       type: "paper",
       year: "2015",
-      authors: "Rosales-Salas, J., and Jara-Díaz, S.",
+      authors: "Jara-Díaz, S., and Rosales-Salas, J.",
       link: "https://drive.google.com/file/d/12ol1TalYCjWvnd02J7Od51VAlZRqDgAS/view?usp=sharing"
     }
   ],

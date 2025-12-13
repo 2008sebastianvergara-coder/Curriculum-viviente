@@ -157,7 +157,7 @@ export const knowledgeBase = {
       year: "2017",
       journal: "Transportation Research Part A",
       content: `
-        Autores: Rosales-Salas, J., and Jara-Díaz, S.
+        Autores: Jara-Díaz, S., and Rosales-Salas, J.
         Resumen: Revisión exhaustiva de la literatura de modelación de uso del tiempo.
         Clasificación:
         - Histórica: Desde estudios soviéticos y americanos en 1920 hasta hoy.
@@ -171,7 +171,7 @@ export const knowledgeBase = {
       year: "2015",
       journal: "Transportation Research Part A",
       content: `
-        Autores: Rosales-Salas, J., and Jara-Díaz, S.
+        Autores: Jara-Díaz, S., and Rosales-Salas, J.
         Resumen: Analiza la duración óptima de las encuestas de uso del tiempo (diarios de vida).
         Hallazgos:
         - Comparación de encuestas de 1, 2, 3 y 7 días usando datos de UK y Holanda.
