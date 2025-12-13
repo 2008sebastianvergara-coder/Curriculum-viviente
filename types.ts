@@ -76,6 +76,7 @@ export interface ResumeData {
     avatarUrl: string;
     cvUrl: string;
     linkedinUrl: string;
+    xUrl?: string;
   };
   stats: {
     yearsExperience: number;
