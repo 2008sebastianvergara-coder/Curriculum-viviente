@@ -4,6 +4,9 @@ export const knowledgeBase = {
     title: "Sistema Nacional de Ocio para Chile",
     content: `
       AUTOR: Jorge Rosales-Salas.
+      AÑO: 2023.
+      EDITORIAL: RIALSTAT EDITORES.
+      ISBN: 978-956-9852-23-7.
       RESUMEN: Una obra transformadora que explora la importancia del tiempo libre, el bienestar y la calidad de vida en nuestra sociedad. Propone un Sistema Nacional de Ocio fundamentado en experiencias internacionales para garantizar el acceso equitativo a los beneficios del tiempo libre.
       
       TEMAS CLAVE:
@@ -25,6 +28,8 @@ export const knowledgeBase = {
     title: "Manual de Planificación Estratégica para Instituciones de Salud",
     content: `
       EDITORES: Jorge Rosales Salas, PhD & Dr. Sebastián Pizarro.
+      AÑO: 2025 (Noviembre).
+      INSTITUCIÓN: Universidad Finis Terrae (Facultades de Ingeniería y Medicina).
       RESUMEN: Guía integral para equipos directivos y profesionales de la salud para transformar la planificación en una práctica viva.
       
       CONTENIDOS PRINCIPALES:
@@ -44,42 +49,11 @@ export const knowledgeBase = {
   },
   papers: [
     {
-      title: "Mining sequences in activities for time use analysis",
-      year: "2020",
-      journal: "Intelligent Data Analysis",
-      content: `
-        Autores: Jorge Rosales-Salas, Sebastián Maldonado, Alex Seret.
-        Resumen: Propone un marco de minería de datos (algoritmo Generalized Sequential Pattern - GSP) para analizar secuencias de actividades en encuestas de uso del tiempo (ATUS 2003-2012).
-        Hallazgos:
-        - Las secuencias revelan patrones complejos que el análisis descriptivo ignora.
-        - Actividades "ancla": Dormir y trabajar estructuran el día.
-        - Patrones detectados: "Viajar al trabajo" precede al trabajo (obvio pero cuantificado). Comer o snacks sucede frecuentemente después del trabajo.
-        - Diferencias fin de semana: Las siestas (sleep) aumentan significativamente y se asocian a ver TV.
-        - Clustering: Se identificaron 15 clústeres homogéneos. Variables clave: empleo, género, hijos. El género no fue tan influyente en el modelo general de sueño como se pensaba, pero sí el empleo.
-      `
-    },
-    {
-      title: "Socio-demographic patterns of public, private and active travel in Latin America (ELANS)",
-      year: "2020",
-      journal: "Journal of Transport & Health",
-      content: `
-        Autores: Gerson Luis de Moraes Ferrari, Jorge Rosales-Salas, et al.
-        Resumen: Análisis del transporte público, privado y activo en 8 países de Latam (ELANS, n=9218).
-        Hallazgos:
-        - Transporte privado (48.2%) y público (34.9%) dominan. Transporte activo (caminar/bicicleta) es bajo (17% del tiempo total).
-        - Venezuela: Mayor uso de transporte público (48.4%).
-        - Perú: Mayor uso de transporte privado (52.5%).
-        - Costa Rica: Mayor transporte activo (caminar 14.8%, bicicleta 12.2%).
-        - Género: Mujeres caminan más que los hombres (12.6% vs 9.8%). Hombres usan más bicicleta (7.1% vs 3.1%).
-        - Conclusión: Promover infraestructura para transporte activo es crucial para la salud pública en la región.
-      `
-    },
-    {
-      title: "The job of public transport, ride-hailing and delivery drivers: Conditions during COVID-19",
+      title: "The job of public transport, ride-hailing and delivery drivers: Conditions during the COVID-19 pandemic and implications for a post-pandemic future",
       year: "2023",
       journal: "Travel Behaviour and Society",
       content: `
-        Autores: Andrés Fielbaum, Felipe Ruiz, Giorgio Boccardo, Daniela Rubio, Alejandro Tirachini, Jorge Rosales-Salas.
+        Autores: Fielbaum, A., Ruiz, F., Boccardo, G., Rubio, D., Tirachini, A., Rosales-Salas, J.
         Resumen: Encuesta a conductores en Santiago durante la pandemia.
         Hallazgos:
         - Precarización: Conductores de apps (Uber, Rappi) sufrieron más que los de transporte público (contratos formales).
@@ -91,11 +65,42 @@ export const knowledgeBase = {
       `
     },
     {
+      title: "Pobreza de tiempo, género y vivienda social en Santiago de Chile. Un análisis cualitativo",
+      year: "2022",
+      journal: "EURE",
+      content: `
+        Autores: Castillo, M., Sanhueza, C., Rosales-Salas, J., & Sandoval, D.
+        Resumen: Estudio cualitativo en Bajos de Mena (Puente Alto).
+        Hallazgos:
+        - Pobreza de tiempo: Falta de tiempo para descanso y ocio debido a largas jornadas laborales y de traslado.
+        - Género: Las mujeres sufren más pobreza de tiempo por la "doble jornada" (trabajo remunerado + cuidados/doméstico).
+        - Vivienda Social: La segregación espacial (lejanía) aumenta los tiempos de viaje, exacerbando la pobreza de tiempo.
+        - Estrategias: Las mujeres a menudo abandonan el mercado laboral formal por trabajos informales precarios en el barrio para conciliar cuidados.
+        - Conclusión: El tiempo es un recurso crítico para el bienestar que está mal distribuido territorial y socialmente.
+      `
+    },
+    {
+      title: "Socio-demographic patterns of public, private and active travel in Latin America: Cross-sectional findings from the ELANS study",
+      year: "2020",
+      journal: "Journal of Transport & Health",
+      content: `
+        Autores: Moraes Ferrari, G. et al.
+        Resumen: Análisis del transporte público, privado y activo en 8 países de Latam (ELANS, n=9218).
+        Hallazgos:
+        - Transporte privado (48.2%) y público (34.9%) dominan. Transporte activo (caminar/bicicleta) es bajo (17% del tiempo total).
+        - Venezuela: Mayor uso de transporte público (48.4%).
+        - Perú: Mayor uso de transporte privado (52.5%).
+        - Costa Rica: Mayor transporte activo (caminar 14.8%, bicicleta 12.2%).
+        - Género: Mujeres caminan más que los hombres (12.6% vs 9.8%). Hombres usan más bicicleta (7.1% vs 3.1%).
+        - Conclusión: Promover infraestructura para transporte activo es crucial para la salud pública en la región.
+      `
+    },
+    {
       title: "Time use: The role of sleep",
       year: "2020",
       journal: "Transportation Research Part A",
       content: `
-        Autores: Sergio R. Jara-Díaz, Jorge Rosales-Salas.
+        Autores: Jara-Díaz, S., and Rosales-Salas, J.
         Resumen: Modelo microeconómico que trata el sueño como una decisión endógena, no fija.
         Conceptos Clave:
         - El sueño afecta la productividad (salarios) y la percepción (utilidad de otras actividades).
@@ -106,16 +111,31 @@ export const knowledgeBase = {
       `
     },
     {
-      title: "Understanding time use: Daily or weekly data?",
-      year: "2015",
-      journal: "Transportation Research Part A",
+      title: "Mining sequences in activities for time use analysis",
+      year: "2020",
+      journal: "Intelligent Data Analysis",
       content: `
-        Autores: Sergio Jara-Díaz, Jorge Rosales-Salas.
-        Resumen: Analiza la duración óptima de las encuestas de uso del tiempo (diarios de vida).
+        Autores: Rosales-Salas, J., Maldonado, S., and Seret, A.
+        Resumen: Propone un marco de minería de datos (algoritmo Generalized Sequential Pattern - GSP) para analizar secuencias de actividades en encuestas de uso del tiempo (ATUS 2003-2012).
         Hallazgos:
-        - Comparación de encuestas de 1, 2, 3 y 7 días.
-        - Variabilidad: Los días de semana son similares entre sí, pero el fin de semana es muy distinto.
-        - Recomendación: Una encuesta de 2 o 3 días (que incluya días de semana y fin de semana ponderados) es un sustituto adecuado y más barato que una encuesta de 7 días completa para modelar el ciclo trabajo-ocio.
+        - Las secuencias revelan patrones complejos que el análisis descriptivo ignora.
+        - Actividades "ancla": Dormir y trabajar estructuran el día.
+        - Patrones detectados: "Viajar al trabajo" precede al trabajo. Comer o snacks sucede frecuentemente después del trabajo.
+        - Diferencias fin de semana: Las siestas (sleep) aumentan significativamente y se asocian a ver TV.
+      `
+    },
+    {
+      title: "Understanding time use via data mining: A clustering-based framework",
+      year: "2018",
+      journal: "Intelligent Data Analysis",
+      content: `
+        Autores: Rosales-Salas, J., Maldonado, S., and Seret, A.
+        Resumen: Uso de clustering (K-means) para agrupar individuos según variables sociodemográficas y analizar su uso del tiempo (ATUS 2003-2012).
+        Hallazgos:
+        - Se identificaron 15 clústeres homogéneos basados en edad, género, ingreso e hijos.
+        - El impacto de las variables sociodemográficas en el sueño y el trabajo depende del clúster.
+        - El género, aunque relevante en análisis generales, muestra matices cuando se combina con ingreso y número de hijos en clusters específicos.
+        - Recomendación: Usar enfoques multifactoriales en lugar de análisis de una sola variable para entender el uso del tiempo.
       `
     },
     {
@@ -123,12 +143,12 @@ export const knowledgeBase = {
       year: "2017",
       journal: "Transportation Research Part B",
       content: `
-        Autores: Jorge Rosales-Salas, Sergio R. Jara-Díaz.
+        Autores: Rosales-Salas, J., and Jara-Díaz, S.
         Resumen: Extiende el modelo de uso del tiempo para incluir la contratación de ayuda externa (servicio doméstico, niñeras).
         Hallazgos:
-        - Actividades productivas vs. improductivas (ocio). Las productivas (limpiar, cocinar) se pueden delegar.
+        - Actividades productivas (ej. cocinar, limpiar) vs. improductivas (ocio). Las productivas se pueden delegar.
         - Si se ignora la posibilidad de contratar ayuda, se sobreestima el valor del tiempo de ocio.
-        - El valor del trabajo doméstico propio no es necesariamente igual al salario de mercado ni al salario de la empleada, es un valor sombra interno influenciado por ambos.
+        - El valor del trabajo doméstico propio es un valor sombra interno influenciado por el salario de mercado y el costo del servicio externo.
         - Aplicación: Datos de Holanda (LISS panel) sobre cuidado de niños.
       `
     },
@@ -137,28 +157,26 @@ export const knowledgeBase = {
       year: "2017",
       journal: "Transportation Research Part A",
       content: `
-        Autores: Sergio Jara-Díaz, Jorge Rosales-Salas.
+        Autores: Rosales-Salas, J., and Jara-Díaz, S.
         Resumen: Revisión exhaustiva de la literatura de modelación de uso del tiempo.
         Clasificación:
         - Histórica: Desde estudios soviéticos y americanos en 1920 hasta hoy.
         - Disciplinaria: Sociología, Economía, Transporte, Psicología.
         - Analítica: Descriptiva vs. Modelos Microeconómicos vs. Modelos Basados en Actividades.
-        - Conclusión: Existe una desconexión entre disciplinas. Se propone integrar enfoques (ej. restricciones técnicas de consumo de bienes y tiempo) para enriquecer los modelos de transporte.
+        - Conclusión: Existe una desconexión entre disciplinas. Se propone integrar enfoques para enriquecer los modelos de transporte.
       `
     },
     {
-      title: "Pobreza de tiempo, género y vivienda social en Santiago de Chile",
-      year: "2022",
-      journal: "EURE",
+      title: "Understanding time use: Daily or weekly data?",
+      year: "2015",
+      journal: "Transportation Research Part A",
       content: `
-        Autores: Mayarí Castillo, Claudia Sanhueza, Jorge Rosales-Salas, Diego Sandoval.
-        Resumen: Estudio cualitativo en Bajos de Mena (Puente Alto).
+        Autores: Rosales-Salas, J., and Jara-Díaz, S.
+        Resumen: Analiza la duración óptima de las encuestas de uso del tiempo (diarios de vida).
         Hallazgos:
-        - Pobreza de tiempo: Falta de tiempo para descanso y ocio debido a largas jornadas laborales y de traslado.
-        - Género: Las mujeres sufren más pobreza de tiempo por la "doble jornada" (trabajo remunerado + cuidados/doméstico).
-        - Vivienda Social: La segregación espacial (lejanía) aumenta los tiempos de viaje, exacerbando la pobreza de tiempo.
-        - Estrategias: Las mujeres a menudo abandonan el mercado laboral formal por trabajos informales precarios en el barrio para conciliar cuidados.
-        - Conclusión: El tiempo es un recurso crítico para el bienestar que está mal distribuido territorial y socialmente.
+        - Comparación de encuestas de 1, 2, 3 y 7 días usando datos de UK y Holanda.
+        - Variabilidad: Los días de semana son similares entre sí, pero el fin de semana es muy distinto.
+        - Recomendación: Una encuesta de 2 o 3 días (que incluya días de semana y fin de semana ponderados) es un sustituto adecuado y más costo-efectivo que una encuesta de 7 días completa para modelar el ciclo trabajo-ocio.
       `
     }
   ]

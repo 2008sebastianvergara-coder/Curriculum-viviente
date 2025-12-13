@@ -410,7 +410,7 @@ const App = () => {
                     {/* Column 1: Publications */}
                     <div>
                       <h4 className="text-lg font-bold text-white mb-4 flex items-center gap-2">
-                        <FileText size={20} className="text-emerald-200/50" /> Publicaciones en Uso de Tiempo
+                        <FileText size={20} className="text-emerald-200/50" /> Publicaciones de Uso de Tiempo
                       </h4>
                       {/* Added max-height and overflow to prevent stretching */}
                       <div className="space-y-4 max-h-[500px] overflow-y-auto pr-2 custom-scrollbar">
@@ -424,7 +424,8 @@ const App = () => {
                                     <span className="text-xs text-primary/80 bg-primary/10 px-1.5 py-0.5 rounded border border-primary/10">
                                       {pub.year}
                                     </span>
-                                    {pub.authors && <span className="text-xs text-emerald-200/40 truncate max-w-[200px]" title={pub.authors}>{pub.authors}</span>}
+                                    {/* Changed from truncate to a multiline block div to ensure visibility */}
+                                    {pub.authors && <div className="text-xs text-emerald-200/40 mt-1">{pub.authors}</div>}
                                   </div>
                               </div>
                               

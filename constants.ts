@@ -200,7 +200,7 @@ export const mockResumeData: ResumeData = {
       title: "Socio-demographic patterns of public, private and active travel in Latin America: Cross-sectional findings from the ELANS study",
       type: "paper",
       year: "2020",
-      authors: "Rosales-Salas, J. et al.",
+      authors: "Moraes Ferrari, G. et al.",
       link: "https://drive.google.com/file/d/1kUqu7ptrVJJBxB25-UE1MESrX1nUly_e/view?usp=sharing"
     },
     {
@@ -215,8 +215,8 @@ export const mockResumeData: ResumeData = {
       id: "pub-5",
       title: "Mining sequences in activities for time use analysis",
       type: "paper",
-      year: "2019",
-      authors: "Rosales-Salas, J.",
+      year: "2020",
+      authors: "Rosales-Salas, J., Maldonado, S., and Seret, A.",
       link: "https://drive.google.com/file/d/1-zndQP4nmCUJpqqjW6mjoAxh-Sk1BzlK/view?usp=sharing"
     },
     {
@@ -224,7 +224,7 @@ export const mockResumeData: ResumeData = {
       title: "Understanding time use via data mining: A clustering-based framework",
       type: "paper",
       year: "2018",
-      authors: "Rosales-Salas, J.",
+      authors: "Rosales-Salas, J., Maldonado, S., and Seret, A.",
       link: "https://drive.google.com/file/d/1qhqpbrsJmeUVIYofAlOv2_clnuf9mc8X/view?usp=sharing"
     },
     {
@@ -232,7 +232,7 @@ export const mockResumeData: ResumeData = {
       title: "A time allocation model considering external providers",
       type: "paper",
       year: "2017",
-      authors: "Rosales-Salas, J.",
+      authors: "Rosales-Salas, J., and Jara-Díaz, S.",
       link: "https://drive.google.com/file/d/1k97bRhi9l9Ka82_BbdGvdH8LiBg9-XEz/view?usp=sharing"
     },
     {
@@ -240,7 +240,7 @@ export const mockResumeData: ResumeData = {
       title: "Beyond transport time: A review of time use modeling",
       type: "paper",
       year: "2017",
-      authors: "Rosales-Salas, J.",
+      authors: "Rosales-Salas, J., and Jara-Díaz, S.",
       link: "https://drive.google.com/file/d/1IY80S2R6xcD1xy3KwOiFmNKlF_xw8XMo/view?usp=sharing"
     },
     {
@@ -248,7 +248,7 @@ export const mockResumeData: ResumeData = {
       title: "Understanding time use: Daily or weekly data?",
       type: "paper",
       year: "2015",
-      authors: "Rosales-Salas, J.",
+      authors: "Rosales-Salas, J., and Jara-Díaz, S.",
       link: "https://drive.google.com/file/d/12ol1TalYCjWvnd02J7Od51VAlZRqDgAS/view?usp=sharing"
     }
   ],
