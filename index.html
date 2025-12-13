@@ -10,10 +10,11 @@
         theme: {
           extend: {
             colors: {
-              primary: '#84cc16', // Lime 500 (Vivid Green)
-              secondary: '#d4a373', // Light Brown / Tan (Cafe clarito)
-              dark: '#022c22', // Green 950 (Deep Forest Background)
-              card: '#14532d', // Green 900 (Card Background)
+              primary: '#6ee7b7', // Emerald 300 (Soft Mint / New Growth)
+              secondary: '#94a3b8', // Slate 400 (Stone/Neutral)
+              dark: '#142e26', // Deep Forest/Succulent Green (Background)
+              card: '#1c4236', // Lighter Succulent Green (Card Background)
+              accent: '#fcd34d', // Amber 300 (Subtle pop for buttons if needed)
             },
             keyframes: {
               'spin-reverse': {
@@ -39,8 +40,8 @@
     </script>
     <style>
       body {
-        background-color: #022c22;
-        color: #f8fafc;
+        background-color: #142e26; /* Deep Succulent BG */
+        color: #f0fdf4; /* Very light green text */
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       }
       /* Custom scrollbar */
@@ -48,14 +49,14 @@
         width: 8px;
       }
       ::-webkit-scrollbar-track {
-        background: #14532d; 
+        background: #1c4236; 
       }
       ::-webkit-scrollbar-thumb {
-        background: #3f6212; 
+        background: #366f5e; 
         border-radius: 4px;
       }
       ::-webkit-scrollbar-thumb:hover {
-        background: #84cc16; 
+        background: #6ee7b7; 
       }
     </style>
   <script type="importmap">
@@ -70,7 +71,6 @@
   }
 }
 </script>
-<script type="module" src="/index.tsx"></script>
 </head>
   <body>
     <div id="root"></div>

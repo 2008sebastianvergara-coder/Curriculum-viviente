@@ -77,7 +77,7 @@ export const mockResumeData: ResumeData = {
   experience: [
     {
       id: "job-1",
-      role: "Director del Centro de Investigación y Desarrollo en Ingeniería (CIDI)",
+      role: "Director del Centro de Innovación y Desarrollo en Ingeniería Aplicada (CIDIA)",
       company: "Universidad Finis Terrae",
       period: "2025 – Presente",
       description: "Liderazgo estratégico del centro de investigación, fomentando el desarrollo científico y tecnológico en ingeniería.",
