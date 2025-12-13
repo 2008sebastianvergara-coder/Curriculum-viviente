@@ -24,6 +24,14 @@ export interface Publication {
   authors?: string;
 }
 
+export interface Conference {
+  id: string;
+  title: string;
+  event: string;
+  location: string;
+  year: string;
+}
+
 export interface Education {
   id: string;
   degree: string;
@@ -82,6 +90,7 @@ export interface ResumeData {
   education: Education[];
   honors: Honor[];
   publications: Publication[];
+  conferences: Conference[];
   researchProjects: {
     id: string;
     role: string;

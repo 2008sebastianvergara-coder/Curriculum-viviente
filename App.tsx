@@ -18,7 +18,8 @@ import {
   Github,
   Brain,
   BarChart3,
-  Globe
+  Globe,
+  Mic2
 } from 'lucide-react';
 
 const App = () => {
@@ -27,7 +28,7 @@ const App = () => {
   const [activeTab, setActiveTab] = useState<'trayectoria' | 'investigacion' | 'educacion'>('trayectoria');
 
   return (
-    <div className="min-h-screen bg-dark text-emerald-50 selection:bg-primary/30 selection:text-primary-foreground pb-20 font-sans">
+    <div className="min-h-screen bg-dark text-emerald-50 selection:bg-primary/30 selection:text-primary-foreground pb-20 font-sans overflow-x-hidden">
       
       {/* Background Decor */}
       <div className="fixed inset-0 z-0 overflow-hidden pointer-events-none">
@@ -37,8 +38,8 @@ const App = () => {
 
       <div className="max-w-6xl mx-auto px-4 sm:px-6 relative z-10">
         
-        {/* Navigation / Header */}
-        <header className="py-6 flex justify-between items-center">
+        {/* Navigation / Header - Mobile Optimized */}
+        <header className="py-6 flex flex-col md:flex-row justify-between items-center gap-4">
           <div className="flex items-center gap-2 font-bold text-xl tracking-tighter text-white">
             <Terminal className="text-primary" />
             <span>JORGE<span className="text-primary">.ROSALES</span></span>
@@ -66,8 +67,8 @@ const App = () => {
         </header>
 
         {/* Hero Section */}
-        <section className="py-12 md:py-20 grid md:grid-cols-2 gap-12 items-center">
-          <div className="space-y-6">
+        <section className="py-8 md:py-20 grid md:grid-cols-2 gap-8 md:gap-12 items-center">
+          <div className="space-y-6 order-2 md:order-1 text-center md:text-left">
             <div className="inline-block px-3 py-1 rounded-full bg-primary/10 border border-primary/20 text-primary text-xs font-semibold tracking-wide uppercase">
               Investigador & Académico
             </div>
@@ -77,11 +78,11 @@ const App = () => {
             <h2 className="text-xl md:text-2xl text-transparent bg-clip-text bg-gradient-to-r from-primary to-emerald-200 font-medium">
               {data.personalInfo.title}
             </h2>
-            <p className="text-lg text-emerald-100/70 leading-relaxed max-w-lg">
+            <p className="text-lg text-emerald-100/70 leading-relaxed max-w-lg mx-auto md:mx-0">
               {data.personalInfo.about}
             </p>
             
-            <div className="flex flex-wrap gap-4 pt-4">
+            <div className="flex flex-wrap justify-center md:justify-start gap-4 pt-4">
                <div className="flex items-center gap-2 text-sm text-emerald-200/60 hover:text-primary transition-colors">
                  <MapPin size={16} /> {data.personalInfo.location}
                </div>
@@ -94,9 +95,9 @@ const App = () => {
             </div>
           </div>
           
-          <div className="relative flex justify-center items-center">
+          <div className="relative flex justify-center items-center order-1 md:order-2">
             {/* Clean Avatar Container */}
-            <div className="relative w-80 h-80 md:w-96 md:h-96 rounded-full overflow-hidden border-4 border-white/5 shadow-2xl bg-card">
+            <div className="relative w-64 h-64 md:w-96 md:h-96 rounded-full overflow-hidden border-4 border-white/5 shadow-2xl bg-card">
                <img 
                   src={data.personalInfo.avatarUrl} 
                   alt={data.personalInfo.name} 
@@ -110,7 +111,7 @@ const App = () => {
 
         {/* Featured Book Section */}
         <section className="mb-10">
-          <div className="bg-card/40 border border-white/5 rounded-2xl p-8 md:p-12 relative overflow-hidden group backdrop-blur-sm">
+          <div className="bg-card/40 border border-white/5 rounded-2xl p-6 md:p-12 relative overflow-hidden group backdrop-blur-sm">
             {/* Decorative blurs */}
             <div className="absolute top-0 right-0 w-96 h-96 bg-primary/5 rounded-full blur-[100px] pointer-events-none"></div>
             
@@ -121,8 +122,8 @@ const App = () => {
                   <BookOpen size={14} /> Publicación Destacada
                 </div>
                 <div>
-                  <h3 className="text-3xl font-bold text-white mb-2">{data.highlightBook.title}</h3>
-                  <p className="text-xl text-primary font-light">{data.highlightBook.subtitle}</p>
+                  <h3 className="text-2xl md:text-3xl font-bold text-white mb-2">{data.highlightBook.title}</h3>
+                  <p className="text-lg md:text-xl text-primary font-light">{data.highlightBook.subtitle}</p>
                 </div>
                 <p className="text-emerald-100/80 leading-relaxed">
                   {data.highlightBook.description}
@@ -141,7 +142,7 @@ const App = () => {
 
               {/* Book Visual Representation */}
               <div className="md:col-span-2 flex justify-center">
-                <div className="relative w-48 aspect-[2/3] bg-white rounded-r-lg shadow-[10px_10px_30px_rgba(0,0,0,0.5)] transform rotate-y-[-15deg] group-hover:rotate-y-0 transition-transform duration-500 flex flex-col overflow-hidden border-l-4 border-emerald-100/20">
+                <div className="relative w-40 md:w-48 aspect-[2/3] bg-white rounded-r-lg shadow-[10px_10px_30px_rgba(0,0,0,0.5)] transform rotate-y-[-15deg] group-hover:rotate-y-0 transition-transform duration-500 flex flex-col overflow-hidden border-l-4 border-emerald-100/20">
                    <img 
                      src={data.highlightBook.coverUrl} 
                      alt={data.highlightBook.title}
@@ -157,14 +158,14 @@ const App = () => {
 
         {/* Featured Manual Section (New) */}
         <section className="mb-20">
-          <div className="bg-card/40 border border-white/5 rounded-2xl p-8 md:p-12 relative overflow-hidden group backdrop-blur-sm">
+          <div className="bg-card/40 border border-white/5 rounded-2xl p-6 md:p-12 relative overflow-hidden group backdrop-blur-sm">
              {/* Decorative blurs */}
              <div className="absolute bottom-0 left-0 w-96 h-96 bg-white/5 rounded-full blur-[100px] pointer-events-none"></div>
 
              <div className="grid md:grid-cols-5 gap-8 items-center relative z-10">
                 {/* Manual Visual Representation (Left) */}
                 <div className="md:col-span-2 flex justify-center order-2 md:order-1">
-                   <div className="relative w-48 aspect-[3/4] bg-white rounded-l-lg shadow-[10px_10px_30px_rgba(0,0,0,0.5)] transform rotate-y-[15deg] group-hover:rotate-y-0 transition-transform duration-500 flex flex-col overflow-hidden border-r-4 border-emerald-100/20">
+                   <div className="relative w-40 md:w-48 aspect-[3/4] bg-white rounded-l-lg shadow-[10px_10px_30px_rgba(0,0,0,0.5)] transform rotate-y-[15deg] group-hover:rotate-y-0 transition-transform duration-500 flex flex-col overflow-hidden border-r-4 border-emerald-100/20">
                       <img 
                         src={data.highlightManual.coverUrl} 
                         alt={data.highlightManual.title}
@@ -180,7 +181,7 @@ const App = () => {
                      <BookOpen size={14} /> Nueva Publicación
                    </div>
                    <div>
-                     <h3 className="text-3xl font-bold text-white mb-2 leading-tight">{data.highlightManual.title}</h3>
+                     <h3 className="text-2xl md:text-3xl font-bold text-white mb-2 leading-tight">{data.highlightManual.title}</h3>
                      <p className="text-sm text-emerald-200/70 font-light">{data.highlightManual.subtitle}</p>
                    </div>
                    <p className="text-emerald-100/80 leading-relaxed">
@@ -331,7 +332,7 @@ const App = () => {
               
               {/* === TRAYECTORIA === */}
               {activeTab === 'trayectoria' && (
-                <div className="space-y-10 relative pl-4 border-l border-emerald-900/50 ml-4 animate-in fade-in">
+                <div className="space-y-10 relative pl-4 border-l border-emerald-900/50 ml-0 md:ml-4 animate-in fade-in">
                   {data.experience.map((job) => (
                     <div key={job.id} className="relative pl-8 group">
                       {/* Timeline Dot */}
@@ -339,7 +340,7 @@ const App = () => {
                       
                       <div className="mb-2 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1">
                         <h4 className="text-xl font-bold text-white group-hover:text-primary transition-colors">{job.role}</h4>
-                        <span className="text-xs font-mono text-emerald-200/80 bg-emerald-900/30 px-2 py-1 rounded">{job.period}</span>
+                        <span className="text-xs font-mono text-emerald-200/80 bg-emerald-900/30 px-2 py-1 rounded w-fit">{job.period}</span>
                       </div>
                       <div className="text-emerald-200/60 font-medium mb-3">{job.company}</div>
                       <p className="text-emerald-100/70 mb-4 text-sm leading-relaxed">{job.description}</p>
@@ -370,36 +371,74 @@ const App = () => {
 
               {/* === INVESTIGACIÓN === */}
               {activeTab === 'investigacion' && (
-                <div className="space-y-8 animate-in fade-in">
-                  <h4 className="text-lg font-bold text-white mb-4 flex items-center gap-2">
-                    <BookOpen size={20} className="text-primary" /> Proyectos FONDECYT & Otros
-                  </h4>
-                  <div className="grid gap-4">
-                     {data.researchProjects.map((proj) => (
-                       <div key={proj.id} className="bg-card/50 border border-white/5 p-4 rounded-lg hover:border-primary/30 transition-colors">
-                          <div className="flex justify-between items-start mb-2">
-                             <span className="text-xs font-mono text-primary bg-primary/10 px-2 py-0.5 rounded">{proj.source}</span>
-                             <span className="text-xs text-emerald-200/50">{proj.year}</span>
-                          </div>
-                          <h5 className="text-white font-bold mb-1">{proj.title}</h5>
-                          <p className="text-sm text-emerald-100/70">Rol: {proj.role}</p>
-                       </div>
-                     ))}
+                <div className="space-y-10 animate-in fade-in">
+                  {/* Research Projects - Full Width */}
+                  <div>
+                    <h4 className="text-lg font-bold text-white mb-4 flex items-center gap-2">
+                      <BookOpen size={20} className="text-primary" /> Proyectos FONDECYT & Otros
+                    </h4>
+                    <div className="grid gap-4">
+                       {data.researchProjects.map((proj) => (
+                         <div key={proj.id} className="bg-card/50 border border-white/5 p-4 rounded-lg hover:border-primary/30 transition-colors">
+                            <div className="flex justify-between items-start mb-2">
+                               <span className="text-xs font-mono text-primary bg-primary/10 px-2 py-0.5 rounded">{proj.source}</span>
+                               <span className="text-xs text-emerald-200/50">{proj.year}</span>
+                            </div>
+                            <h5 className="text-white font-bold mb-1">{proj.title}</h5>
+                            <p className="text-sm text-emerald-100/70">Rol: {proj.role}</p>
+                         </div>
+                       ))}
+                    </div>
                   </div>
 
-                  <h4 className="text-lg font-bold text-white mt-8 mb-4 flex items-center gap-2">
-                    <FileText size={20} className="text-emerald-200/50" /> Publicaciones Destacadas
-                  </h4>
-                  <div className="space-y-4">
-                     {data.publications.map((pub) => (
-                       <div key={pub.id} className="border-l-2 border-emerald-900/50 pl-4 py-1 hover:border-emerald-500/50 transition-colors">
-                          <h5 className="text-emerald-50 font-medium">{pub.title}</h5>
-                          <p className="text-sm text-emerald-200/50 italic mt-1">
-                            {pub.journal || "Libro/Conferencia"} — {pub.year}
-                          </p>
-                          <p className="text-xs text-emerald-200/40 mt-1">{pub.authors}</p>
-                       </div>
-                     ))}
+                  {/* Two Column Layout for Publications & Conferences */}
+                  <div className="grid lg:grid-cols-2 gap-8 items-start">
+                    
+                    {/* Column 1: Publications */}
+                    <div>
+                      <h4 className="text-lg font-bold text-white mb-4 flex items-center gap-2">
+                        <FileText size={20} className="text-emerald-200/50" /> Publicaciones Científicas
+                      </h4>
+                      {/* Added max-height and overflow to prevent stretching */}
+                      <div className="space-y-4 max-h-[500px] overflow-y-auto pr-2">
+                         {data.publications.map((pub) => (
+                           <div key={pub.id} className="border-l-2 border-emerald-900/50 pl-4 py-2 hover:border-emerald-500/50 transition-colors bg-white/[0.02] rounded-r-lg">
+                              <h5 className="text-emerald-50 font-medium text-sm leading-snug">{pub.title}</h5>
+                              <p className="text-xs text-emerald-200/50 italic mt-1">
+                                {pub.journal || "Libro/Conferencia"} — {pub.year}
+                              </p>
+                              <p className="text-xs text-emerald-200/40 mt-1 truncate">{pub.authors}</p>
+                           </div>
+                         ))}
+                      </div>
+                    </div>
+
+                    {/* Column 2: Conferences */}
+                    <div>
+                      <h4 className="text-lg font-bold text-white mb-4 flex items-center gap-2">
+                        <Mic2 size={20} className="text-accent" /> Conferencias y Charlas
+                      </h4>
+                      {/* Added max-height to match publications if list grows */}
+                      <div className="grid gap-4 max-h-[500px] overflow-y-auto pr-2">
+                         {data.conferences.map((conf) => (
+                           <div key={conf.id} className="bg-card/30 border border-white/5 p-4 rounded-lg hover:bg-card/50 transition-colors flex flex-col justify-between">
+                              <div>
+                                <div className="flex justify-between items-start mb-2">
+                                  <span className="inline-block px-2 py-0.5 bg-accent/10 text-accent text-[10px] font-bold rounded uppercase tracking-wider">
+                                    {conf.year}
+                                  </span>
+                                  <span className="text-xs text-emerald-200/40 flex items-center gap-1 text-right ml-2">
+                                    <MapPin size={10} className="shrink-0" /> {conf.location}
+                                  </span>
+                                </div>
+                                <h5 className="text-white font-bold text-sm mb-1 leading-snug">{conf.title}</h5>
+                                <p className="text-xs text-emerald-200/60 mt-2">{conf.event}</p>
+                              </div>
+                           </div>
+                         ))}
+                      </div>
+                    </div>
+
                   </div>
                 </div>
               )}
@@ -429,14 +468,14 @@ const App = () => {
                       <h4 className="text-lg font-bold text-white mb-6 flex items-center gap-2">
                         <Award size={20} className="text-accent" /> Honores y Becas
                       </h4>
-                      <div className="space-y-4">
+                      {/* Changed to scrollable list with paper styling */}
+                      <div className="space-y-4 max-h-[500px] overflow-y-auto pr-2 custom-scrollbar">
                         {data.honors.map((honor) => (
-                          <div key={honor.id} className="bg-card/40 p-3 rounded border border-white/5 flex items-start gap-3">
-                             <Award size={16} className="text-accent mt-1 shrink-0" />
-                             <div>
-                               <div className="text-sm font-bold text-emerald-50">{honor.title}</div>
-                               <div className="text-xs text-emerald-200/50">{honor.institution} • {honor.year}</div>
-                             </div>
+                          <div key={honor.id} className="border-l-2 border-accent/30 pl-4 py-2 hover:border-accent transition-colors bg-white/[0.02] rounded-r-lg group">
+                             <h5 className="text-emerald-50 font-medium text-sm leading-snug group-hover:text-accent transition-colors">{honor.title}</h5>
+                             <p className="text-xs text-emerald-200/50 italic mt-1">
+                               {honor.institution ? `${honor.institution} — ` : ''}{honor.year}
+                             </p>
                           </div>
                         ))}
                       </div>

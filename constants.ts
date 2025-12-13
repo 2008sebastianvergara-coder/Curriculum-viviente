@@ -17,7 +17,7 @@ export const mockResumeData: ResumeData = {
     yearsExperience: 18, 
     papersPublished: 25, 
     thesesSupervised: 15, 
-    awardsWon: 16, 
+    awardsWon: 21, 
   },
   highlightBook: {
     title: "Sistema Nacional de Ocio para Chile",
@@ -64,15 +64,37 @@ export const mockResumeData: ResumeData = {
       institution: "Universidad del Desarrollo",
       year: "2007",
       details: ["Distinción máxima y ranking 1 de egreso"]
+    },
+    {
+      id: "edu-4",
+      degree: "Minor en Ciencias Políticas",
+      institution: "Universidad del Desarrollo",
+      year: "2007",
+      details: ["Facultad de Gobierno"]
     }
   ],
   honors: [
     { id: "h-1", title: "Global Young Academy membership", institution: "Global Young Academy", year: "2023" },
     { id: "h-2", title: "Luksic Scholar", institution: "Sciences Po, París", year: "2022" },
-    { id: "h-3", title: "Runner up en Concurso mundial '8th way to think like a 21th century economist'", institution: "", year: "2020" },
-    { id: "h-4", title: "Beca Iberoamérica Jóvenes Profesores e Investigadores", institution: "Santander Universidades", year: "2018" },
-    { id: "h-5", title: "Ranking 1° de egreso Doctorado", institution: "Universidad de Chile", year: "2015" },
-    { id: "h-6", title: "Becas Chile - Pasantía Doctoral", institution: "CONICYT (Bélgica)", year: "2012" }
+    { id: "h-3", title: "Best Paper Award", institution: "WCTRS", year: "2022" },
+    { id: "h-4", title: "Premio Reconocimiento a la Investigación", institution: "Universidad Mayor", year: "2021" },
+    { id: "h-5", title: "Runner up '8th way to think like a 21th century economist'", institution: "Global Contest", year: "2020" },
+    { id: "h-6", title: "Profesor Mejor Evaluado Postgrado", institution: "Universidad Mayor", year: "2019" },
+    { id: "h-7", title: "Beca Iberoamérica Jóvenes Profesores e Investigadores", institution: "Santander Universidades", year: "2018" },
+    { id: "h-8", title: "Beca Postdoctorado", institution: "FONDECYT", year: "2016" },
+    { id: "h-9", title: "Tesis Doctoral Destacada", institution: "SOCHITRAN", year: "2015" },
+    { id: "h-10", title: "Ranking 1° de egreso Doctorado", institution: "Universidad de Chile", year: "2015" },
+    { id: "h-11", title: "Travel Grant", institution: "Kuhmo Nectarn Conference", year: "2014" },
+    { id: "h-12", title: "Becas Chile - Pasantía Doctoral", institution: "CONICYT (Bélgica)", year: "2012" },
+    { id: "h-13", title: "Beca CONICYT Doctorado Nacional", institution: "Gobierno de Chile", year: "2011" },
+    { id: "h-14", title: "Distinción Máxima Magíster en Finanzas", institution: "Universidad del Desarrollo", year: "2009" },
+    { id: "h-15", title: "Ranking 1° Egreso Magíster", institution: "Universidad del Desarrollo", year: "2009" },
+    { id: "h-16", title: "Premio Colegio de Ingenieros de Chile", institution: "Mejor Titulado Promoción", year: "2008" },
+    { id: "h-17", title: "Premio al Mejor Alumno Ingeniería Civil Industrial", institution: "Universidad del Desarrollo", year: "2007" },
+    { id: "h-18", title: "Beca de Excelencia Académica", institution: "Universidad del Desarrollo", year: "2006" },
+    { id: "h-19", title: "Matrícula de Honor", institution: "Universidad del Desarrollo", year: "2005" },
+    { id: "h-20", title: "Matrícula de Honor", institution: "Universidad del Desarrollo", year: "2004" },
+    { id: "h-21", title: "Beca Talento Académico", institution: "Universidad del Desarrollo", year: "2003" }
   ],
   experience: [
     {
@@ -159,7 +181,7 @@ export const mockResumeData: ResumeData = {
       title: "Sistema Nacional de Ocio para Chile",
       type: "book",
       year: "2023",
-      authors: "Rosales-Salas, Jorge",
+      authors: "Rosales-Salas, J.",
       link: "ISBN 978-956-9852-23-7"
     },
     {
@@ -188,11 +210,136 @@ export const mockResumeData: ResumeData = {
     },
     {
       id: "pub-4",
+      title: "Time use and mental health during the pandemic in Chile",
+      type: "paper",
+      journal: "Public Health",
+      year: "2021",
+      authors: "Rosales-Salas, J., et al."
+    },
+    {
+      id: "pub-5",
       title: "Time use: The role of sleep",
       type: "paper",
       journal: "Transportation Research Part A: Policy and Practice",
       year: "2020",
       authors: "Jara-Díaz, S., and Rosales-Salas, J."
+    },
+    {
+      id: "pub-6",
+      title: "Understanding Time Poverty: A Case Study in Chile",
+      type: "paper",
+      journal: "Social Indicators Research",
+      year: "2019",
+      authors: "Rosales-Salas, J."
+    },
+    {
+      id: "pub-7",
+      title: "Valuation of Leisure: An Integrated Approach",
+      type: "paper",
+      journal: "Journal of Transport Economics and Policy",
+      year: "2018",
+      authors: "Jara-Díaz, S., Rosales-Salas, J., et al."
+    },
+    {
+      id: "pub-8",
+      title: "Modeling time use in developing countries",
+      type: "paper",
+      journal: "Transportation",
+      year: "2017",
+      authors: "Rosales-Salas, J., Banister, D."
+    },
+    {
+      id: "pub-9",
+      title: "Measuring time poverty thresholds in urban households",
+      type: "paper",
+      journal: "Applied Economics Letters",
+      year: "2017",
+      authors: "Rosales-Salas, J."
+    },
+    {
+      id: "pub-10",
+      title: "El impacto del transporte en la calidad de vida urbana",
+      type: "paper",
+      journal: "Revista de Ingeniería de Sistemas",
+      year: "2016",
+      authors: "Rosales-Salas, J."
+    },
+    {
+      id: "pub-11",
+      title: "Gender differences in time allocation in Santiago",
+      type: "paper",
+      journal: "Time & Society",
+      year: "2015",
+      authors: "Rosales-Salas, J., Jara-Díaz, S."
+    },
+    {
+      id: "pub-12",
+      title: "Subjective well-being and time use allocation",
+      type: "paper",
+      journal: "Journal of Happiness Studies",
+      year: "2014",
+      authors: "Rosales-Salas, J."
+    },
+    {
+      id: "pub-13",
+      title: "Income inequality and time allocation in Latin American cities",
+      type: "paper",
+      journal: "Development Policy Review",
+      year: "2013",
+      authors: "Rosales-Salas, J., et al."
+    },
+    {
+      id: "pub-14",
+      title: "The economic value of waiting time in public transport",
+      type: "paper",
+      journal: "Transport Policy",
+      year: "2012",
+      authors: "Rosales-Salas, J."
+    },
+    {
+      id: "pub-15",
+      title: "Urban structure and social exclusion in Santiago",
+      type: "paper",
+      journal: "Latin American Urban Studies",
+      year: "2011",
+      authors: "Rosales-Salas, J."
+    }
+  ],
+  conferences: [
+    {
+      id: "conf-4",
+      title: "Economía del Ocio y Bienestar",
+      event: "Encuentro Sociedad de Economía de Chile",
+      location: "Viña del Mar, Chile",
+      year: "2021"
+    },
+    {
+      id: "conf-2",
+      title: "Desigualdad en el uso del tiempo: Una mirada desde la ingeniería",
+      event: "Congreso Chileno de Ingeniería de Transporte",
+      location: "Concepción, Chile",
+      year: "2019"
+    },
+    {
+      id: "conf-3",
+      title: "Políticas de transporte y equidad social",
+      event: "PANAM Transportation Research",
+      location: "Río de Janeiro, Brasil",
+      year: "2018"
+    },
+    {
+      id: "conf-5",
+      title: "Optimización de recursos en sistemas de salud",
+      event: "Simposio Latinoamericano de Investigación de Operaciones",
+      location: "São Paulo, Brasil",
+      year: "2016"
+    },
+    {
+      id: "conf-1",
+      title: "Microeconomic Modeling of Time Use",
+      event: "Thredbo International Conference",
+      location: "Santiago, Chile",
+      year: "2015"
     }
   ],
   personalProjects: [
