@@ -70,7 +70,7 @@ export const mockResumeData: ResumeData = {
       id: "edu-4",
       degree: "Minor en Ciencias Políticas",
       institution: "Universidad del Desarrollo",
-      year: "2007",
+      year: "2004-2006",
       details: ["Facultad de Gobierno"]
     }
   ],
