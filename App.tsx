@@ -410,17 +410,35 @@ const App = () => {
                     {/* Column 1: Publications */}
                     <div>
                       <h4 className="text-lg font-bold text-white mb-4 flex items-center gap-2">
-                        <FileText size={20} className="text-emerald-200/50" /> Publicaciones Científicas
+                        <FileText size={20} className="text-emerald-200/50" /> Publicaciones en Uso de Tiempo
                       </h4>
                       {/* Added max-height and overflow to prevent stretching */}
-                      <div className="space-y-4 max-h-[500px] overflow-y-auto pr-2">
+                      <div className="space-y-4 max-h-[500px] overflow-y-auto pr-2 custom-scrollbar">
                          {data.publications.map((pub) => (
-                           <div key={pub.id} className="border-l-2 border-emerald-900/50 pl-4 py-2 hover:border-emerald-500/50 transition-colors bg-white/[0.02] rounded-r-lg">
-                              <h5 className="text-emerald-50 font-medium text-sm leading-snug">{pub.title}</h5>
-                              <p className="text-xs text-emerald-200/50 italic mt-1">
-                                {pub.journal || "Libro/Conferencia"} — {pub.year}
-                              </p>
-                              <p className="text-xs text-emerald-200/40 mt-1 truncate">{pub.authors}</p>
+                           <div key={pub.id} className="border-l-2 border-emerald-900/50 pl-4 py-3 hover:border-emerald-500/50 transition-colors bg-white/[0.02] rounded-r-lg group flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+                              <div className="flex-1">
+                                  <h5 className="text-emerald-50 font-medium text-sm leading-snug group-hover:text-primary transition-colors pr-2">
+                                    {pub.title}
+                                  </h5>
+                                  <div className="flex flex-wrap items-center gap-x-2 gap-y-1 mt-1.5">
+                                    <span className="text-xs text-primary/80 bg-primary/10 px-1.5 py-0.5 rounded border border-primary/10">
+                                      {pub.year}
+                                    </span>
+                                    {pub.authors && <span className="text-xs text-emerald-200/40 truncate max-w-[200px]" title={pub.authors}>{pub.authors}</span>}
+                                  </div>
+                              </div>
+                              
+                              {pub.link && (
+                                  <a 
+                                    href={pub.link}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="self-start sm:self-center text-xs font-bold text-emerald-100 bg-white/5 border border-white/10 hover:border-primary/50 hover:bg-primary/10 hover:text-primary px-3 py-2 rounded-lg transition-all flex items-center gap-2 shrink-0 whitespace-nowrap shadow-sm"
+                                    title="Descargar Paper"
+                                  >
+                                    <Download size={14} /> <span>PDF</span>
+                                  </a>
+                              )}
                            </div>
                          ))}
                       </div>
@@ -432,7 +450,7 @@ const App = () => {
                         <Mic2 size={20} className="text-accent" /> Conferencias y Charlas
                       </h4>
                       {/* Added max-height to match publications if list grows */}
-                      <div className="grid gap-4 max-h-[500px] overflow-y-auto pr-2">
+                      <div className="grid gap-4 max-h-[500px] overflow-y-auto pr-2 custom-scrollbar">
                          {data.conferences.map((conf) => (
                            <div key={conf.id} className="bg-card/30 border border-white/5 p-4 rounded-lg hover:bg-card/50 transition-colors flex flex-col justify-between">
                               <div>

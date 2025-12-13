@@ -18,7 +18,7 @@ export const mockResumeData: ResumeData = {
     yearsExperience: 18, 
     papersPublished: 25, 
     thesesSupervised: 15, 
-    awardsWon: 21, 
+    awardsWon: 23, 
   },
   highlightBook: {
     title: "Sistema Nacional de Ocio para Chile",
@@ -75,27 +75,29 @@ export const mockResumeData: ResumeData = {
     }
   ],
   honors: [
-    { id: "h-1", title: "Global Young Academy membership", institution: "Global Young Academy", year: "2023" },
-    { id: "h-2", title: "Luksic Scholar", institution: "Sciences Po, París", year: "2022" },
-    { id: "h-3", title: "Best Paper Award", institution: "WCTRS", year: "2022" },
-    { id: "h-4", title: "Premio Reconocimiento a la Investigación", institution: "Universidad Mayor", year: "2021" },
-    { id: "h-5", title: "Runner up '8th way to think like a 21th century economist'", institution: "Global Contest", year: "2020" },
-    { id: "h-6", title: "Profesor Mejor Evaluado Postgrado", institution: "Universidad Mayor", year: "2019" },
-    { id: "h-7", title: "Beca Iberoamérica Jóvenes Profesores e Investigadores", institution: "Santander Universidades", year: "2018" },
-    { id: "h-8", title: "Beca Postdoctorado", institution: "FONDECYT", year: "2016" },
-    { id: "h-9", title: "Tesis Doctoral Destacada", institution: "SOCHITRAN", year: "2015" },
-    { id: "h-10", title: "Ranking 1° de egreso Doctorado", institution: "Universidad de Chile", year: "2015" },
-    { id: "h-11", title: "Travel Grant", institution: "Kuhmo Nectarn Conference", year: "2014" },
-    { id: "h-12", title: "Becas Chile - Pasantía Doctoral", institution: "CONICYT (Bélgica)", year: "2012" },
-    { id: "h-13", title: "Beca CONICYT Doctorado Nacional", institution: "Gobierno de Chile", year: "2011" },
-    { id: "h-14", title: "Distinción Máxima Magíster en Finanzas", institution: "Universidad del Desarrollo", year: "2009" },
-    { id: "h-15", title: "Ranking 1° Egreso Magíster", institution: "Universidad del Desarrollo", year: "2009" },
-    { id: "h-16", title: "Premio Colegio de Ingenieros de Chile", institution: "Mejor Titulado Promoción", year: "2008" },
-    { id: "h-17", title: "Premio al Mejor Alumno Ingeniería Civil Industrial", institution: "Universidad del Desarrollo", year: "2007" },
-    { id: "h-18", title: "Beca de Excelencia Académica", institution: "Universidad del Desarrollo", year: "2006" },
-    { id: "h-19", title: "Matrícula de Honor", institution: "Universidad del Desarrollo", year: "2005" },
-    { id: "h-20", title: "Matrícula de Honor", institution: "Universidad del Desarrollo", year: "2004" },
-    { id: "h-21", title: "Beca Talento Académico", institution: "Universidad del Desarrollo", year: "2003" }
+    { id: "h-23", title: "Global Young Academy membership", institution: "Global Young Academy", year: "2023" },
+    { id: "h-22", title: "Luksic Scholar", institution: "Sciences Po, París", year: "2022" },
+    { id: "h-20", title: "Runner up '8th way to think like a 21th century economist'", institution: "Global Contest", year: "2020" },
+    { id: "h-18-1", title: "Investigador Responsable FONDECYT Iniciación", institution: "ANID/CONICYT", year: "2018" },
+    { id: "h-18-2", title: "Beca Iberoamérica Jóvenes Profesores e Investigadores", institution: "Santander Universidades", year: "2018" },
+    { id: "h-16", title: "Investigador Responsable FONDECYT Postdoctorado", institution: "ANID/CONICYT", year: "2016" },
+    { id: "h-15", title: "Ranking 1° de egreso Doctorado", institution: "Universidad de Chile", year: "2015" },
+    { id: "h-13-1", title: "Beca asistencia IATUR training workshop", institution: "SPM / IATUR / IAFFE (Brasil)", year: "2013" },
+    { id: "h-13-2", title: "Beca asistencia 35th IATUR Conference", institution: "Centre for Time Use Research (CTUR)", year: "2013" },
+    { id: "h-12", title: "Beca Pasantía Doctoral en el Extranjero", institution: "BECAS CHILE - CONICYT (Bélgica)", year: "2012" },
+    { id: "h-09-1", title: "Beca Doctorado Nacional", institution: "CONICYT", year: "2009–2013" },
+    { id: "h-09-2", title: "Distinción Máxima Magíster", institution: "Universidad del Desarrollo", year: "2009" },
+    { id: "h-09-3", title: "Ranking 1° de egreso Magíster", institution: "Universidad del Desarrollo", year: "2009" },
+    { id: "h-09-4", title: "Beca Excelencia Académica Magíster", institution: "Universidad del Desarrollo", year: "2008–2009" },
+    { id: "h-08", title: "Beca Conferencia Internacional Michael Porter", institution: "Santiago, Chile", year: "2008" },
+    { id: "h-07-1", title: "Distinción Máxima Ingeniería Civil Industrial", institution: "Universidad del Desarrollo", year: "2007" },
+    { id: "h-07-2", title: "Ranking 1° de egreso Ingeniería Civil Industrial", institution: "Universidad del Desarrollo", year: "2007" },
+    { id: "h-07-3", title: "Beca Embajadores del Futuro (China)", institution: "Delegación Académica", year: "2007" },
+    { id: "h-07-4", title: "Beca Excelencia Académica Pregrado", institution: "Universidad del Desarrollo", year: "2002–2007" },
+    { id: "h-06", title: "Beca Intercambio University of Nottingham", institution: "Universidad del Desarrollo", year: "2005-2006" },
+    { id: "h-04", title: "Beca Conferencia Nobel Physics Laureates", institution: "Lindau, Alemania", year: "2004" },
+    { id: "h-03", title: "Premio Mejor Alumno Promoción", institution: "Universidad del Desarrollo", year: "2003" },
+    { id: "h-02", title: "Premio Mejor Alumno Promoción", institution: "Universidad del Desarrollo", year: "2002" }
   ],
   experience: [
     {
@@ -178,169 +180,232 @@ export const mockResumeData: ResumeData = {
   ],
   publications: [
     {
-      id: "pub-book",
-      title: "Sistema Nacional de Ocio para Chile",
-      type: "book",
+      id: "pub-9",
+      title: "The job of public transport, ride-hailing and delivery drivers: Conditions during the COVID-19 pandemic and implications for a post-pandemic future",
+      type: "paper",
       year: "2023",
-      authors: "Rosales-Salas, J.",
-      link: "ISBN 978-956-9852-23-7"
-    },
-    {
-      id: "pub-1",
-      title: "The job of public transport, ride-hailing and delivery drivers: Conditions during COVID-19",
-      type: "paper",
-      journal: "Travel Behaviour and Society",
-      year: "2023",
-      authors: "Fielbaum, A., Ruiz, F., Boccardo, G., Rubio, D., Tirachini, A., Rosales-Salas, J."
-    },
-    {
-      id: "pub-2",
-      title: "Pobreza de tiempo, género y vivienda social en Santiago de Chile",
-      type: "paper",
-      journal: "Revista EURE",
-      year: "2022",
-      authors: "Castillo, M., Sanhueza, C., Rosales-Salas, J., & Sandoval, D."
-    },
-    {
-      id: "pub-3",
-      title: "Vertically Integrated Project Programs in South America",
-      type: "paper",
-      journal: "IEEE World Engineering Education Conference",
-      year: "2022",
-      authors: "Sonnenberg-Klein, J., Rosales-Salas, J., et al."
-    },
-    {
-      id: "pub-4",
-      title: "Time use and mental health during the pandemic in Chile",
-      type: "paper",
-      journal: "Public Health",
-      year: "2021",
-      authors: "Rosales-Salas, J., et al."
-    },
-    {
-      id: "pub-5",
-      title: "Time use: The role of sleep",
-      type: "paper",
-      journal: "Transportation Research Part A: Policy and Practice",
-      year: "2020",
-      authors: "Jara-Díaz, S., and Rosales-Salas, J."
-    },
-    {
-      id: "pub-6",
-      title: "Understanding Time Poverty: A Case Study in Chile",
-      type: "paper",
-      journal: "Social Indicators Research",
-      year: "2019",
-      authors: "Rosales-Salas, J."
-    },
-    {
-      id: "pub-7",
-      title: "Valuation of Leisure: An Integrated Approach",
-      type: "paper",
-      journal: "Journal of Transport Economics and Policy",
-      year: "2018",
-      authors: "Jara-Díaz, S., Rosales-Salas, J., et al."
+      authors: "Fielbaum, A., Ruiz, F., Boccardo, G., Rubio, D., Tirachini, A., Rosales-Salas, J.",
+      link: "https://drive.google.com/file/d/1XR8qHpWwd2UiNEBAs1ogO4EvwfaKxBgl/view?usp=sharing"
     },
     {
       id: "pub-8",
-      title: "Modeling time use in developing countries",
+      title: "Pobreza de tiempo, género y vivienda social en Santiago de Chile. Un análisis cualitativo",
       type: "paper",
-      journal: "Transportation",
+      year: "2022",
+      authors: "Castillo, M., Sanhueza, C., Rosales-Salas, J., & Sandoval, D.",
+      link: "https://drive.google.com/file/d/18xRY-2hXELBw61L1CkvGMOIMd6nrCg-S/view?usp=sharing"
+    },
+    {
+      id: "pub-7",
+      title: "Socio-demographic patterns of public, private and active travel in Latin America: Cross-sectional findings from the ELANS study",
+      type: "paper",
+      year: "2020",
+      authors: "Rosales-Salas, J. et al.",
+      link: "https://drive.google.com/file/d/1kUqu7ptrVJJBxB25-UE1MESrX1nUly_e/view?usp=sharing"
+    },
+    {
+      id: "pub-6",
+      title: "Time use: The role of sleep",
+      type: "paper",
+      year: "2020",
+      authors: "Jara-Díaz, S., and Rosales-Salas, J.",
+      link: "https://drive.google.com/file/d/1tdAB6uY6LMBnAfMsrbsyfgG4J6eHNoVW/view?usp=sharing"
+    },
+    {
+      id: "pub-5",
+      title: "Mining sequences in activities for time use analysis",
+      type: "paper",
+      year: "2019",
+      authors: "Rosales-Salas, J.",
+      link: "https://drive.google.com/file/d/1-zndQP4nmCUJpqqjW6mjoAxh-Sk1BzlK/view?usp=sharing"
+    },
+    {
+      id: "pub-4",
+      title: "Understanding time use via data mining: A clustering-based framework",
+      type: "paper",
+      year: "2018",
+      authors: "Rosales-Salas, J.",
+      link: "https://drive.google.com/file/d/1qhqpbrsJmeUVIYofAlOv2_clnuf9mc8X/view?usp=sharing"
+    },
+    {
+      id: "pub-3",
+      title: "A time allocation model considering external providers",
+      type: "paper",
       year: "2017",
-      authors: "Rosales-Salas, J., Banister, D."
+      authors: "Rosales-Salas, J.",
+      link: "https://drive.google.com/file/d/1k97bRhi9l9Ka82_BbdGvdH8LiBg9-XEz/view?usp=sharing"
     },
     {
-      id: "pub-9",
-      title: "Measuring time poverty thresholds in urban households",
+      id: "pub-2",
+      title: "Beyond transport time: A review of time use modeling",
       type: "paper",
-      journal: "Applied Economics Letters",
       year: "2017",
-      authors: "Rosales-Salas, J."
+      authors: "Rosales-Salas, J.",
+      link: "https://drive.google.com/file/d/1IY80S2R6xcD1xy3KwOiFmNKlF_xw8XMo/view?usp=sharing"
     },
     {
-      id: "pub-10",
-      title: "El impacto del transporte en la calidad de vida urbana",
+      id: "pub-1",
+      title: "Understanding time use: Daily or weekly data?",
       type: "paper",
-      journal: "Revista de Ingeniería de Sistemas",
-      year: "2016",
-      authors: "Rosales-Salas, J."
-    },
-    {
-      id: "pub-11",
-      title: "Gender differences in time allocation in Santiago",
-      type: "paper",
-      journal: "Time & Society",
       year: "2015",
-      authors: "Rosales-Salas, J., Jara-Díaz, S."
-    },
-    {
-      id: "pub-12",
-      title: "Subjective well-being and time use allocation",
-      type: "paper",
-      journal: "Journal of Happiness Studies",
-      year: "2014",
-      authors: "Rosales-Salas, J."
-    },
-    {
-      id: "pub-13",
-      title: "Income inequality and time allocation in Latin American cities",
-      type: "paper",
-      journal: "Development Policy Review",
-      year: "2013",
-      authors: "Rosales-Salas, J., et al."
-    },
-    {
-      id: "pub-14",
-      title: "The economic value of waiting time in public transport",
-      type: "paper",
-      journal: "Transport Policy",
-      year: "2012",
-      authors: "Rosales-Salas, J."
-    },
-    {
-      id: "pub-15",
-      title: "Urban structure and social exclusion in Santiago",
-      type: "paper",
-      journal: "Latin American Urban Studies",
-      year: "2011",
-      authors: "Rosales-Salas, J."
+      authors: "Rosales-Salas, J.",
+      link: "https://drive.google.com/file/d/12ol1TalYCjWvnd02J7Od51VAlZRqDgAS/view?usp=sharing"
     }
   ],
   conferences: [
     {
-      id: "conf-4",
-      title: "Economía del Ocio y Bienestar",
-      event: "Encuentro Sociedad de Economía de Chile",
-      location: "Viña del Mar, Chile",
-      year: "2021"
+      id: "conf-22-1",
+      title: "¿Por qué las 40 horas?",
+      event: "Mesa técnica de las 40 horas del Ministerio del Trabajo",
+      location: "Chile",
+      year: "2022"
     },
     {
-      id: "conf-2",
-      title: "Desigualdad en el uso del tiempo: Una mirada desde la ingeniería",
-      event: "Congreso Chileno de Ingeniería de Transporte",
-      location: "Concepción, Chile",
+      id: "conf-22-2",
+      title: "Teletrabajo y tiempo de trabajo",
+      event: "Mesa técnica de la ley de Conciliación Laboral, Ministerio del Trabajo",
+      location: "Chile",
+      year: "2022"
+    },
+    {
+      id: "conf-22-3",
+      title: "Reducción del Empleo",
+      event: "Primera Cumbre Mundial de la Semana Laboral de 4 Días",
+      location: "Valencia, España",
+      year: "2022"
+    },
+    {
+      id: "conf-19-1",
+      title: "Time Poverty in Chile",
+      event: "41th IATUR Conference on Time Use Research",
+      location: "Washington, D.C., USA",
       year: "2019"
     },
     {
-      id: "conf-3",
-      title: "Políticas de transporte y equidad social",
-      event: "PANAM Transportation Research",
-      location: "Río de Janeiro, Brasil",
-      year: "2018"
+      id: "conf-17-1",
+      title: "Time Use Modeling: The role of Sleep",
+      event: "39th IATUR Conference on Time Use Research",
+      location: "Madrid, España",
+      year: "2017"
     },
     {
-      id: "conf-5",
-      title: "Optimización de recursos en sistemas de salud",
-      event: "Simposio Latinoamericano de Investigación de Operaciones",
-      location: "São Paulo, Brasil",
+      id: "conf-16-1",
+      title: "Internal and external domestic work within time use modeling",
+      event: "38th IATUR Conference on Time Use Research",
+      location: "Seúl, Corea del Sur",
       year: "2016"
     },
     {
-      id: "conf-1",
-      title: "Microeconomic Modeling of Time Use",
-      event: "Thredbo International Conference",
+      id: "conf-16-2",
+      title: "A time allocation model considering external providers",
+      event: "ITEA Annual Conference and School on Transportation Economics",
       location: "Santiago, Chile",
+      year: "2016"
+    },
+    {
+      id: "conf-15-1",
+      title: "Time Use Modeling: Towards and extended framework",
+      event: "IV Encuentro de Investigación de Estudiantes de Postgrado (U. Bío Bío)",
+      location: "Concepción, Chile",
       year: "2015"
+    },
+    {
+      id: "conf-14-1",
+      title: "Medir, modelar y valorar el uso del tiempo: ¿Para qué sirve?",
+      event: "Universidad de Concepción",
+      location: "Concepción, Chile",
+      year: "2014"
+    },
+    {
+      id: "conf-14-2",
+      title: "Definición del tipo de investigación a realizar y Formulación de la hipótesis",
+      event: "Primer Simposio de Metodología de la Investigación (U. San Sebastián)",
+      location: "Concepción, Chile",
+      year: "2014"
+    },
+    {
+      id: "conf-14-3",
+      title: "Time Use Modeling: a Multidisciplinary Review",
+      event: "Fourth Time Use Observatory (TUO 4)",
+      location: "Marchihue, Chile",
+      year: "2014"
+    },
+    {
+      id: "conf-14-4",
+      title: "Time Use Databases: What do we have?",
+      event: "Fourth Time Use Observatory (TUO 4)",
+      location: "Marchihue, Chile",
+      year: "2014"
+    },
+    {
+      id: "conf-13-1",
+      title: "The role of the observation period in a better understanding of time use",
+      event: "35th Conference of the IATUR",
+      location: "Rio de Janeiro, Brasil",
+      year: "2013"
+    },
+    {
+      id: "conf-13-2",
+      title: "Modeling the value of time",
+      event: "35th Conference of the IATUR",
+      location: "Rio de Janeiro, Brasil",
+      year: "2013"
+    },
+    {
+      id: "conf-13-3",
+      title: "Promoting policy applications of time use research",
+      event: "35th Conference of the IATUR",
+      location: "Rio de Janeiro, Brasil",
+      year: "2013"
+    },
+    {
+      id: "conf-13-4",
+      title: "Households’ food consumption patterns, convenience orientation and meal practices",
+      event: "35th Conference of the IATUR",
+      location: "Rio de Janeiro, Brasil",
+      year: "2013"
+    },
+    {
+      id: "conf-13-5",
+      title: "Gender egalitarian beliefs, gender egalitarian time-use?",
+      event: "35th Conference of the IATUR",
+      location: "Rio de Janeiro, Brasil",
+      year: "2013"
+    },
+    {
+      id: "conf-13-6",
+      title: "Examining the observation period of data regarding time-use research",
+      event: "Vrije Universiteit Brussel",
+      location: "Bruselas, Bélgica",
+      year: "2013"
+    },
+    {
+      id: "conf-12-1",
+      title: "RIE²: Ampliando las expectativas profesionales del estudiante de Ingeniería",
+      event: "XXV Congreso Chileno de Educación en Ingeniería SOCHEDI",
+      location: "Antofagasta, Chile",
+      year: "2012"
+    },
+    {
+      id: "conf-12-2",
+      title: "Vives la U: ¿Y luego qué?",
+      event: "Facultad de Odontología, Universidad San Sebastián",
+      location: "Concepción, Chile",
+      year: "2012"
+    },
+    {
+      id: "conf-12-3",
+      title: "Saldrás de la U: ¿Y luego qué?",
+      event: "Universidad Católica de Temuco",
+      location: "Temuco, Chile",
+      year: "2012"
+    },
+    {
+      id: "conf-12-4",
+      title: "Understanding time use: daily or weekly data?",
+      event: "Third Time Use Observatory (TUO 3)",
+      location: "Santiago, Chile",
+      year: "2012"
     }
   ],
   personalProjects: [
