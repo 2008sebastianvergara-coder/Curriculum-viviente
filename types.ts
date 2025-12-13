@@ -44,6 +44,7 @@ export interface HighlightBook {
   subtitle?: string;
   description: string;
   downloadUrl: string;
+  webUrl?: string;
   coverUrl?: string;
 }
 
@@ -75,6 +76,7 @@ export interface ResumeData {
     awardsWon: number;
   };
   highlightBook: HighlightBook;
+  highlightManual: HighlightBook;
   skills: Skill[];
   experience: Experience[];
   education: Education[];

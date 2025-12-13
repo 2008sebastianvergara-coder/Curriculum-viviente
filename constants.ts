@@ -26,6 +26,14 @@ export const mockResumeData: ResumeData = {
     downloadUrl: "https://drive.google.com/file/d/1kePTX-loIPK7SNK4-JSDOtaEuNYM_qK1/view?usp=sharing",
     coverUrl: "https://i.postimg.cc/NFLfdBb4/image.png"
   },
+  highlightManual: {
+    title: "Manual de Planificación Estratégica para Instituciones de Salud",
+    subtitle: "Editores: Jorge Rosales Salas, PhD & Dr. Sebastián Pizarro",
+    description: "Una guía integral diseñada para equipos directivos y profesionales de la salud que busca transformar la planificación en una práctica viva. Ofrece herramientas rigurosas para diseñar, implementar y evaluar procesos estratégicos orientados a resultados clínicos, organizacionales y sociales en entornos de alta incertidumbre.",
+    downloadUrl: "https://drive.google.com/file/d/1AOQBldDyOxo5IdhwIFbBZpGv-X496w7S/view?usp=sharing",
+    webUrl: "https://manualestrategicodesalud.cl/",
+    coverUrl: "https://i.postimg.cc/W1rpQ8ZY/image.png"
+  },
   skills: [
     { name: "Microeconomía & Macroeconomía", level: 95, category: "core" },
     { name: "Políticas Públicas", level: 90, category: "core" },
