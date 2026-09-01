@@ -53,7 +53,7 @@ const App = () => {
              >
                <Linkedin size={18} />
              </a>
-             <a
+             <a 
                href={data.personalInfo.cvUrl} 
                target="_blank" 
                rel="noopener noreferrer"
@@ -522,9 +522,6 @@ const App = () => {
         </div>
 
       </div>
-
-      {/* The AI Chat Widget */}
-      <ChatInterface resumeData={data} />
     </div>
   );
 };
