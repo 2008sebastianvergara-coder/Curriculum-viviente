@@ -101,6 +101,8 @@ const App = () => {
                   src={data.personalInfo.avatarUrl} 
                   alt={data.personalInfo.name} 
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+                  fetchPriority="high"
+                  decoding="async"
                />
             </div>
             {/* Subtle backlight glow */}
@@ -146,6 +148,8 @@ const App = () => {
                      src={data.highlightBook.coverUrl} 
                      alt={data.highlightBook.title}
                      className="w-full h-full object-cover"
+                     loading="lazy"
+                     decoding="async"
                    />
                    {/* Book spine shadow */}
                    <div className="absolute left-0 top-0 bottom-0 w-2 bg-gradient-to-r from-black/20 to-transparent pointer-events-none"></div>
@@ -169,6 +173,8 @@ const App = () => {
                         src={data.highlightManual.coverUrl} 
                         alt={data.highlightManual.title}
                         className="w-full h-full object-cover"
+                        loading="lazy"
+                        decoding="async"
                       />
                       <div className="absolute right-0 top-0 bottom-0 w-2 bg-gradient-to-l from-black/20 to-transparent pointer-events-none"></div>
                    </div>
