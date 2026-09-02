@@ -201,19 +201,58 @@ const App = () => {
                      >
                        <Download size={18} /> Descargar Manual (PDF)
                      </a>
-                     {data.highlightManual.webUrl && (
-                       <a 
-                         href={data.highlightManual.webUrl}
-                         target="_blank"
-                         rel="noopener noreferrer" 
-                         className="inline-flex items-center gap-2 bg-transparent border border-white/20 text-white hover:bg-white/10 font-bold py-3 px-6 rounded-lg transition-all transform hover:translate-y-[-2px]"
-                       >
-                         <Globe size={18} /> Ver Sitio Web
-                       </a>
-                     )}
                    </div>
                 </div>
              </div>
+          </div>
+        </section>
+
+        {/* Featured Paper Section (New) */}
+        <section className="mb-20">
+          <div className="bg-card/40 border border-white/5 rounded-2xl p-6 md:p-12 relative overflow-hidden group backdrop-blur-sm">
+            {/* Decorative blurs */}
+            <div className="absolute top-0 right-0 w-96 h-96 bg-primary/5 rounded-full blur-[100px] pointer-events-none"></div>
+            
+            <div className="grid md:grid-cols-5 gap-8 items-center relative z-10">
+              {/* Paper Text */}
+              <div className="md:col-span-3 space-y-6">
+                <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/5 text-emerald-200 text-xs font-bold uppercase tracking-wider">
+                  <FileText size={14} /> Publicación Importante
+                </div>
+                <div>
+                  <h3 className="text-2xl md:text-3xl font-bold text-white mb-2">{data.highlightPaper.title}</h3>
+                  <p className="text-lg md:text-xl text-primary font-light">{data.highlightPaper.subtitle}</p>
+                </div>
+                <p className="text-emerald-100/80 leading-relaxed">
+                  {data.highlightPaper.description}
+                </p>
+                <div className="pt-2 flex flex-wrap gap-4">
+                  <a 
+                    href={data.highlightPaper.downloadUrl}
+                    target="_blank"
+                    rel="noopener noreferrer" 
+                    className="inline-flex items-center gap-2 bg-white/10 text-white border border-white/20 hover:bg-white/20 font-bold py-3 px-6 rounded-lg transition-all transform hover:translate-x-1 shadow-lg shadow-black/20"
+                  >
+                    <BookOpen size={18} /> Ver Publicación
+                  </a>
+                </div>
+              </div>
+
+              {/* Paper Visual Representation */}
+              <div className="md:col-span-2 flex justify-center">
+                <div className="relative w-40 md:w-48 aspect-[3/4] bg-white rounded-r-lg shadow-[10px_10px_30px_rgba(0,0,0,0.5)] transform rotate-y-[-15deg] group-hover:rotate-y-0 transition-transform duration-500 flex flex-col overflow-hidden border-l-4 border-emerald-100/20">
+                   <img 
+                     src={data.highlightPaper.coverUrl} 
+                     alt={data.highlightPaper.title}
+                     className="w-full h-full object-cover"
+                     loading="lazy"
+                     decoding="async"
+                   />
+                   {/* Paper spine shadow */}
+                   <div className="absolute left-0 top-0 bottom-0 w-2 bg-gradient-to-r from-black/20 to-transparent pointer-events-none"></div>
+                </div>
+              </div>
+            </div>
           </div>
         </section>
 
