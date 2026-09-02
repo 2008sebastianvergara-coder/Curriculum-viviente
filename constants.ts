@@ -104,7 +104,7 @@ export const mockResumeData: ResumeData = {
       id: "job-1",
       role: "Director del Centro de Innovación y Desarrollo en Ingeniería Aplicada (CIDIA)",
       company: "Universidad Finis Terrae",
-      period: "2025 – Presente",
+      period: "2025 – 2026",
       description: "Liderazgo estratégico del centro de investigación, fomentando el desarrollo científico y tecnológico en ingeniería.",
       achievements: ["Gestión de investigación aplicada.", "Desarrollo de proyectos interdisciplinarios."],
       type: "management"
@@ -113,7 +113,7 @@ export const mockResumeData: ResumeData = {
       id: "job-2",
       role: "Académico Investigador",
       company: "Universidad Finis Terrae",
-      period: "2025 – Presente",
+      period: "2025 – 2026",
       description: "Investigación en Ingeniería Civil Industrial y docencia de pregrado.",
       achievements: [],
       type: "academic"
