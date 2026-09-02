@@ -231,9 +231,9 @@ const App = () => {
                     href={data.highlightPaper.downloadUrl}
                     target="_blank"
                     rel="noopener noreferrer" 
-                    className="inline-flex items-center gap-2 bg-white/10 text-white border border-white/20 hover:bg-white/20 font-bold py-3 px-6 rounded-lg transition-all transform hover:translate-x-1 shadow-lg shadow-black/20"
+                    className="inline-flex items-center gap-2 bg-white text-dark hover:bg-emerald-50 font-bold py-3 px-6 rounded-lg transition-all transform hover:translate-x-1 shadow-lg shadow-black/20"
                   >
-                    <BookOpen size={18} /> Ver Publicación
+                    <Download size={18} /> Descargar Publicación (PDF)
                   </a>
                 </div>
               </div>
