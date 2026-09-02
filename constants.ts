@@ -10,7 +10,7 @@ export const mockResumeData: ResumeData = {
     phone: "+56984106372",
     about: "Doctor en Sistemas de Ingeniería por la Universidad de Chile con trayectoria consolidada en investigación interdisciplinaria. Mi foco está en la economía, políticas públicas y análisis cuantitativo. He liderado centros de investigación y programas académicos innovadores como los Proyectos VIP. Me apasiona modelar cómo las personas valoran y utilizan su recurso más escaso: el tiempo.",
     avatarUrl: "https://i.ibb.co/XZW5nvP3/1776902443231.png", 
-    cvUrl: "https://drive.google.com/file/d/12_VBgaSJrtWcqhFKaANXtRpG_fiCM-PF/view?usp=sharing",
+    cvUrl: "https://drive.google.com/file/d/1U1OCcGneWjy5L5NYr7yjQ7QQD16ZuC2I/view?usp=sharing",
     linkedinUrl: "https://www.linkedin.com/in/jorge-rosales-salas-58817020/",
     xUrl: "https://x.com/jrosalessalas"
   },
@@ -34,6 +34,13 @@ export const mockResumeData: ResumeData = {
     downloadUrl: "https://drive.google.com/file/d/1AOQBldDyOxo5IdhwIFbBZpGv-X496w7S/view?usp=sharing",
     webUrl: "https://manualestrategicodesalud.cl/",
     coverUrl: "https://i.postimg.cc/W1rpQ8ZY/image.png"
+  },
+  highlightPaper: {
+    title: "Uso del tiempo y bienestar en la población LGBTIQANB+ de Chile",
+    subtitle: "Un análisis interseccional sobre el diario vivir",
+    description: "Estudio pionero elaborado por la Red Nacional de Municipios por la Diversidad, el Centro de Economía y Políticas Sociales (UMayor) y OTD Chile. Analiza de manera interseccional cómo las personas de la diversidad y disidencia sexo-genérica distribuyen sus tiempos y experimentan el bienestar en Chile.",
+    downloadUrl: "https://drive.google.com/file/d/1J8G7Zt5ydyNa9ZJckBkI7Prdh3JHHVk0/view?usp=sharing",
+    coverUrl: "https://i.ibb.co/0jjPgzqh/image.png"
   },
   skills: [
     { name: "Microeconomía & Macroeconomía", level: 95, category: "core" },
@@ -104,7 +111,7 @@ export const mockResumeData: ResumeData = {
       id: "job-1",
       role: "Director del Centro de Innovación y Desarrollo en Ingeniería Aplicada (CIDIA)",
       company: "Universidad Finis Terrae",
-      period: "2025 – 2026",
+      period: "2025 – Presente",
       description: "Liderazgo estratégico del centro de investigación, fomentando el desarrollo científico y tecnológico en ingeniería.",
       achievements: ["Gestión de investigación aplicada.", "Desarrollo de proyectos interdisciplinarios."],
       type: "management"
@@ -113,7 +120,7 @@ export const mockResumeData: ResumeData = {
       id: "job-2",
       role: "Académico Investigador",
       company: "Universidad Finis Terrae",
-      period: "2025 – 2026",
+      period: "2025 – Presente",
       description: "Investigación en Ingeniería Civil Industrial y docencia de pregrado.",
       achievements: [],
       type: "academic"
