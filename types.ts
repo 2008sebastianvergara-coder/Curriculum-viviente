@@ -86,6 +86,7 @@ export interface ResumeData {
   };
   highlightBook: HighlightBook;
   highlightManual: HighlightBook;
+  highlightPaper: HighlightBook;
   skills: Skill[];
   experience: Experience[];
   education: Education[];
