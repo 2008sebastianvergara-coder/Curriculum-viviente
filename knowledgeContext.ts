@@ -1,4 +1,3 @@
-
 export const knowledgeBase = {
   book: {
     title: "Sistema Nacional de Ocio para Chile",
@@ -27,7 +26,7 @@ export const knowledgeBase = {
   manual: {
     title: "Manual de Planificación Estratégica para Instituciones de Salud",
     content: `
-      EDITORES: Jorge Rosales Salas, PhD & Dr. Sebastián Pizarro.
+      AUTORES: Jorge Rosales Salas, PhD & Dr. Sebastián Pizarro.
       AÑO: 2025 (Noviembre).
       INSTITUCIÓN: Universidad Finis Terrae (Facultades de Ingeniería y Medicina).
       RESUMEN: Guía integral para equipos directivos y profesionales de la salud para transformar la planificación en una práctica viva.
