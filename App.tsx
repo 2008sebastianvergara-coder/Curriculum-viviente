@@ -43,7 +43,7 @@ const App = () => {
             <GraduationCap className="text-primary" size={32} />
             <span>JORGE<span className="text-primary">.ROSALES</span></span>
           </div>
-          <div className="flex gap-4">
+          <div className="flex flex-wrap items-center justify-center md:justify-end gap-3">
              <a 
                href={data.personalInfo.linkedinUrl}
                target="_blank"
@@ -54,13 +54,22 @@ const App = () => {
                <Linkedin size={18} />
              </a>
              <a 
-               href={data.personalInfo.cvUrl} 
+               href={data.personalInfo.cvAcademicUrl} 
                target="_blank" 
                rel="noopener noreferrer"
                className="flex items-center gap-2 bg-primary/10 hover:bg-primary/20 px-4 py-2 rounded-full text-sm font-medium transition-all border border-primary/20 text-primary hover:text-white"
              >
                <Download size={16} />
-               <span>Descargar CV</span>
+               <span>Descargar CV Académico</span>
+             </a>
+             <a 
+               href={data.personalInfo.cvExecutiveUrl} 
+               target="_blank" 
+               rel="noopener noreferrer"
+               className="flex items-center gap-2 bg-primary/10 hover:bg-primary/20 px-4 py-2 rounded-full text-sm font-medium transition-all border border-primary/20 text-primary hover:text-white"
+             >
+               <Download size={16} />
+               <span>Descargar CV Ejecutivo</span>
              </a>
           </div>
         </header>
