@@ -75,6 +75,8 @@ export interface ResumeData {
     about: string;
     avatarUrl: string;
     cvUrl: string;
+    cvAcademicUrl: string;
+    cvExecutiveUrl: string;
     linkedinUrl: string;
     xUrl?: string;
   };
@@ -108,4 +110,5 @@ export interface ChatMessage {
   role: 'user' | 'model';
   text: string;
   isStreaming?: boolean;
+}
 }
