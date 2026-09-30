@@ -10,7 +10,9 @@ export const mockResumeData: ResumeData = {
     phone: "+56984106372",
     about: "Doctor en Sistemas de Ingeniería por la Universidad de Chile con trayectoria consolidada en investigación interdisciplinaria. Mi foco está en la economía, políticas públicas y análisis cuantitativo. He liderado centros de investigación y programas académicos innovadores como los Proyectos VIP. Me apasiona modelar cómo las personas valoran y utilizan su recurso más escaso: el tiempo.",
     avatarUrl: "https://i.ibb.co/XZW5nvP3/1776902443231.png", 
-    cvUrl: "https://drive.google.com/file/d/12_VBgaSJrtWcqhFKaANXtRpG_fiCM-PF/view?usp=sharing",
+    cvUrl: "https://drive.google.com/file/d/1CyMJXAhhmIW1mG-pKFD2wgRAB-ZBwopK/view?usp=sharing",
+    cvAcademicUrl: "https://drive.google.com/file/d/1CyMJXAhhmIW1mG-pKFD2wgRAB-ZBwopK/view?usp=sharing",
+    cvExecutiveUrl: "https://drive.google.com/file/d/1kSNeU5DuGDY6jNdemHfgU-2dfq-8S8cn/view?usp=sharing",
     linkedinUrl: "https://www.linkedin.com/in/jorge-rosales-salas-58817020/",
     xUrl: "https://x.com/jrosalessalas"
   },
@@ -29,11 +31,11 @@ export const mockResumeData: ResumeData = {
   },
   highlightManual: {
     title: "Manual de Planificación Estratégica para Instituciones de Salud",
-    subtitle: "Editores: Jorge Rosales Salas, PhD & Dr. Sebastián Pizarro",
+    subtitle: "Autores: Jorge Rosales Salas, PhD & Dr. Sebastián Pizarro",
     description: "Una guía integral diseñada para equipos directivos y profesionales de la salud que busca transformar la planificación en una práctica viva. Ofrece herramientas rigurosas para diseñar, implementar y evaluar procesos estratégicos orientados a resultados clínicos, organizacionales y sociales en entornos de alta incertidumbre.",
-    downloadUrl: "https://drive.google.com/file/d/1AOQBldDyOxo5IdhwIFbBZpGv-X496w7S/view?usp=sharing",
+    downloadUrl: "https://drive.google.com/file/d/1mhNINyHQcBHDOsNIMi45SUs8NxcNgSo8/view?usp=sharing",
     webUrl: "https://manualestrategicodesalud.cl/",
-    coverUrl: "https://i.postimg.cc/W1rpQ8ZY/image.png"
+    coverUrl: "https://i.ibb.co/Zzcfb3ZX/image.png"
   },
   highlightPaper: {
     title: "Uso del tiempo y bienestar en la población LGBTIQANB+ de Chile",
@@ -111,7 +113,7 @@ export const mockResumeData: ResumeData = {
       id: "job-1",
       role: "Director del Centro de Innovación y Desarrollo en Ingeniería Aplicada (CIDIA)",
       company: "Universidad Finis Terrae",
-      period: "2025 – 2026",
+      period: "2025 – Presente",
       description: "Liderazgo estratégico del centro de investigación, fomentando el desarrollo científico y tecnológico en ingeniería.",
       achievements: ["Gestión de investigación aplicada.", "Desarrollo de proyectos interdisciplinarios."],
       type: "management"
@@ -120,7 +122,7 @@ export const mockResumeData: ResumeData = {
       id: "job-2",
       role: "Académico Investigador",
       company: "Universidad Finis Terrae",
-      period: "2025 – 2026",
+      period: "2025 – Presente",
       description: "Investigación en Ingeniería Civil Industrial y docencia de pregrado.",
       achievements: [],
       type: "academic"
