@@ -341,10 +341,10 @@ const App = () => {
                    <div className="group">
                       <div className="flex justify-between items-center text-sm mb-1.5">
                         <span className="text-emerald-50">Inglés</span>
-                        <span className="text-xs text-emerald-200/60">Avanzado (C1)</span>
+                        <span className="text-xs text-emerald-200/60">Avanzado (C2)</span>
                       </div>
                       <div className="w-full h-1.5 bg-gray-800/50 rounded-full overflow-hidden">
-                          <div className="h-full bg-primary w-[90%] group-hover:shadow-[0_0_10px_#6ee7b7] transition-shadow"></div>
+                          <div className="h-full bg-primary w-[98%] group-hover:shadow-[0_0_10px_#6ee7b7] transition-shadow"></div>
                       </div>
                    </div>
                 </div>
