@@ -10,9 +10,9 @@ export const mockResumeData: ResumeData = {
     phone: "+56984106372",
     about: "Doctor en Sistemas de Ingeniería por la Universidad de Chile con trayectoria consolidada en investigación interdisciplinaria. Mi foco está en la economía, políticas públicas y análisis cuantitativo. He liderado centros de investigación y programas académicos innovadores como los Proyectos VIP. Me apasiona modelar cómo las personas valoran y utilizan su recurso más escaso: el tiempo.",
     avatarUrl: "https://i.ibb.co/Xr3ZJNHQ/Whats-App-Image-2026-09-30-at-7-41-37-PM.jpg", 
-    cvUrl: "/assets/aistudio/CV_Acade_mico_Jorge_Rosales-Salas_2026_5bf31f73.pdf",
-    cvAcademicUrl: "/assets/aistudio/CV_Acade_mico_Jorge_Rosales-Salas_2026_5bf31f73.pdf",
-    cvExecutiveUrl: "/assets/aistudio/CV_Ejecutivo_Jorge_Rosales-Salas_2026_a4bf3305.pdf",
+    cvUrl: "https://drive.google.com/file/d/1bYw6GqPRRAVOQsvvDvWG2kgKbjP29z1M/view?usp=sharing",
+    cvAcademicUrl: "https://drive.google.com/file/d/1bYw6GqPRRAVOQsvvDvWG2kgKbjP29z1M/view?usp=sharing",
+    cvExecutiveUrl: "https://drive.google.com/file/d/1hbl4i9OtfZQ61U3K5Q61ihDQI5RRwyGH/view?usp=sharing",
     linkedinUrl: "https://www.linkedin.com/in/jorge-rosales-salas-58817020/",
     xUrl: "https://x.com/jrosalessalas"
   },
