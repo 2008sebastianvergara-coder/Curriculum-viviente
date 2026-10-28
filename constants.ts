@@ -13,7 +13,7 @@ export const mockResumeData: ResumeData = {
     cvUrl: "https://drive.google.com/file/d/1bYw6GqPRRAVOQsvvDvWG2kgKbjP29z1M/view?usp=sharing",
     cvAcademicUrl: "https://drive.google.com/file/d/1bYw6GqPRRAVOQsvvDvWG2kgKbjP29z1M/view?usp=sharing",
     cvExecutiveUrl: "https://drive.google.com/file/d/1hbl4i9OtfZQ61U3K5Q61ihDQI5RRwyGH/view?usp=sharing",
-    linkedinUrl: "https://www.linkedin.com/in/jorge-rosales-salas-58817020/",
+    linkedinUrl: "https://www.linkedin.com/in/jorge-rosales-salas-phd-58817020/",
     xUrl: "https://x.com/jrosalessalas"
   },
   stats: {
